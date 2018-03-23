@@ -4,11 +4,11 @@
 def key_for_min_value(name_hash)
   min = nil
   min_v = 0
-  name_hash.each |key,vaule| do
+  name_hash.each |key, vaule| do
     if(vaule < min_v) do
-      min = key 
+      min = key
       min_v = vaule
-    end    
+    end
   end
 
   min
